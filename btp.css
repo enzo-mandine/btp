@@ -1,0 +1,98 @@
+html {
+   
+	background-color:white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    height: 30rem;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.small {
+    width: 25%;
+    height: 100%;
+    background-color: red;
+}
+
+.medium {
+    height: 100%;
+    width: 75%;
+    background-color: rosybrown;
+}
+
+.large {
+    height: 100%;
+    width: 100%;
+    background-color: grey;
+}
+/=====================contact============================/
+
+* {
+    box-sizing: border-box;
+	
+}
+
+
+#form{
+	position: relative;
+	top: 0,5px; left: 0.5px;
+	background-image: linear-gradient(to top, #30cfd0 0%, #330867 100%);
+}
+
+h1{
+text-align:center;}
+
+.content {
+    padding: 1em;
+    margin: 1.5em 25%;
+    background: white;
+    font-family:system-ui;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.33);
+}
+.content a {
+    text-decoration: none;
+    transition: color 0.25s ease-out;
+    color: #5a9cc7;
+}
+.content a:hover {
+    color: #478dc7;
+}
+.content ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 1em;
+}
+.content ul li::before {
+    content: "– ";
+}
+.columns {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.column {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5em;
+    width: 100%;
+}
+#form select, #form input[type="text"], #form input[type="email"], #form input[type="tel"], #form textarea, #form input[type="submit"] {
+    padding: 0.25em;
+    font-size: 0.825em;
+    font-family:system-ui;
+}
+
+
+   
