@@ -1,0 +1,36 @@
+html {
+    background-image: url(ressources/);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.banner {
+    height: 30rem;
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.small {
+    width: 25%;
+    height: 100%;
+    background-color: red;
+}
+
+.medium {
+    height: 100%;
+    width: 75%;
+    background-color: rosybrown;
+}
+
+.large {
+    height: 100%;
+    width: 100%;
+    background-color: grey;
+}
