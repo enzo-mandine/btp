@@ -1,4 +1,5 @@
 /* balise html 5 */
+
 html {
     background-image: url(ressources/bg.jpg);
     background-size: cover;
@@ -22,9 +23,9 @@ nav {
 
 footer {
     height: 4rem;
+    width: 100%;
     background-color: rgba(29, 29, 29, 0.541);
     backdrop-filter: blur(5px);
-
 }
 
 /* class */
@@ -36,7 +37,7 @@ footer {
 .banner {
     height: 30rem;
     width: 100%;
-    box-shadow: 0px 7px 11px 3px rgba(0,0,0,0.75);
+    box-shadow: 0px 7px 11px 3px rgba(0, 0, 0, 0.75);
 }
 
 .spacer {
@@ -52,11 +53,7 @@ footer {
 .small {
     width: 25%;
     height: 100%;
-    background-image: url(ressources/1.jpg);
-    background-size: cover;
-    background-position: center;
     backdrop-filter: blur(5px);
-
 }
 
 .medium {
@@ -64,7 +61,6 @@ footer {
     width: 75%;
     background-color: rgba(29, 29, 29, 0.6);
     backdrop-filter: blur(5px);
-
 }
 
 .large {
@@ -72,7 +68,6 @@ footer {
     width: 100%;
     background-color: rgba(29, 29, 29, 0.6);
     backdrop-filter: blur(5px);
-
 }
 
 .largeclear {
@@ -92,14 +87,16 @@ footer {
 
 .titlearticle {
     font-size: 15pt;
-    text-align: left;
     padding: 1rem;
     color: white;
 }
 
+.textalignright {
+    text-align: right;
+}
+
 .bodyarticle {
     font-size: 12pt;
-    text-justify: distribute;
     padding: 1rem;
     color: white;
 }
@@ -125,45 +122,60 @@ footer {
     padding: 16px;
     font-size: 16px;
     border: none;
-  }
-  
-  .dropdown {
+}
+
+.dropdown {
     position: relative;
     display: inline-block;
-  }
-  
-  .dropdown-content {
+}
+
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: #f1f1f1;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-  }
-  
-  .dropdown-content a {
+}
+
+.dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
-  }
-  
-  .dropdown-content a:hover {background-color: #ddd;}
-  
-  .dropdown:hover .dropdown-content {display: block;}
-  
-  .dropdown:hover .dropbtn {    background-color: rgb(209, 169, 39);}
+}
 
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
 
-  /* ID */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
 
-  #navf>li {
-      display: inline;
-      margin: 1rem;
-      padding-top: 1rem;
-  }
+.dropdown:hover .dropbtn {
+    background-color: rgb(209, 169, 39);
+}
 
-  #menuicon {
-      width: 2rem;
-      height: 2rem;
-  }
+/* ID */
+
+#navf>li {
+    display: inline;
+    margin: 1rem;
+    padding-top: 1rem;
+}
+
+#menuicon {
+    width: 2rem;
+    height: 2rem;
+}
+
+#accueilsmall {
+    background-image: url(ressources/1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#equipetitle {
+    margin-top: 8rem;
+}
