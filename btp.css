@@ -154,7 +154,8 @@ text-align:center;}
 .Ben{
 	display:row;
 	text-align:center;
-		
+	color:white;
+	font-style:gras;
 }
 
 .content {
@@ -244,4 +245,4 @@ text-align:center;}
   #menuicon {
       width: 2rem;
       height: 2rem;
-  }
+  } 
