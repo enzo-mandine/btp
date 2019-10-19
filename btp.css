@@ -307,7 +307,7 @@ a {
     margin-top: 8rem;
 }
 
-#wrapper {
+.wrapper {
     display: block;
     position: relative;
     overflow: hidden;
@@ -327,7 +327,7 @@ a {
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
-#positionwrapper {
+.positionwrapper {
     margin-top: 30rem;
 }
 
