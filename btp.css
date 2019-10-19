@@ -1,0 +1,495 @@
+* {
+    box-sizing: border-box;
+}
+
+/* balise html 5 */
+
+html {
+    background-image: url(ressources/bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    height: 3rem;
+    width: 20rem;
+    background-color: aqua;
+    padding-top: 1.5rem;
+    text-align: center;
+    margin: 0;
+}
+
+footer {
+    height: 6rem;
+    width: 100%;
+    background-color: rgba(29, 29, 29, 0.541);
+    backdrop-filter: blur(5px);
+}
+
+a {
+    color: white;
+    font-weight: bold;
+}
+
+/* class */
+
+.titlebanner {
+    background-color: transparent;
+}
+
+.banner {
+    height: 30rem;
+    width: 100%;
+    box-shadow: 0px 7px 11px 3px rgba(0, 0, 0, 0.75);
+}
+
+.spacer {
+    width: 100%;
+    height: 10rem;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.small {
+    width: 25%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    overflow: hidden;
+}
+
+.medium {
+    height: 100%;
+    width: 75%;
+    background-color: rgba(29, 29, 29, 0.6);
+    backdrop-filter: blur(5px);
+}
+
+.large {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(29, 29, 29, 0.6);
+    backdrop-filter: blur(5px);
+}
+
+.largeclear {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+}
+
+.titlesite {
+    font-size: 150pt;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: 'Great Vibes', cursive;
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 0rem;
+}
+
+.titlearticle {
+    font-size: 15pt;
+    padding: 1rem;
+    color: white;
+}
+
+.textalignright {
+    text-align: right;
+}
+
+.bodyarticle {
+    font-size: 12pt;
+    padding: 1rem;
+    color: white;
+    text-justify: distribute;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.alignh {
+    justify-content: center;
+}
+
+.margintop {
+    margin-top: 1rem;
+}
+
+.mapouter {
+    position: relative;
+    top: center;
+}
+
+.mapBoxT {
+    text-decoration: none;
+    color: Yellow;
+    margin: 4rem;
+}
+
+.link2 {
+    font-family: nexa;
+    text-transform: uppercase;
+    font-size: 50px;
+    line-height: 70px;
+    text-align: right;
+    font-weight: 600;
+    display: relative;
+    border-bottom: 3px solid yellow;
+    width: 630px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    float: right;
+    margin: 5rem;
+}
+
+.footer_1 {
+    color: white;
+    background-color: rgba(29, 29, 29, 0.5);
+    backdrop-filter: blur(5px);
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+/* EQUIPE */
+
+#equipe {
+    font-family: GeosansLight;
+    background-color: transparent;
+    padding: 20px;
+    color: #FFFFFF;
+}
+
+.titre_equipe {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 2.5em;
+}
+
+.equipe_gauche {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: auto;
+    width: 80%;
+}
+
+.equipe_droite {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 80%;
+    margin-left: auto;
+}
+
+.equipe_droite img {
+    max-width: 290px;
+    margin: 30px;
+    border-radius: 50%;
+    box-shadow: 0px 7px 11px 3px rgba(0, 0, 0, 0.3);
+}
+
+.equipe_gauche img {
+    max-width: 290px;
+    margin: 30px;
+    border-radius: 50%;
+    box-shadow: 0px 7px 11px 3px rgba(0, 0, 0, 0.3);
+}
+
+.text_equipier {
+    display: flex;
+    flex-direction: column;
+    text-justify: auto;
+    font-size: 1.2em;
+    flex-grow: 1;
+    color: #FFFFFF;
+}
+
+.nom_equipier {
+    font-weight: bold;
+    font-size: 1.4em;
+    color: #000000;
+}
+
+/* dropdown menu */
+
+.dropbtn {
+    background-color: rgb(209, 169, 39);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgb(209, 169, 39);
+}
+.test {
+    display: flex;
+    flex-direction: row;
+}
+
+.test>img {
+    width: 33.33%;
+    height: 33.33%;
+    /* transition: all .2s ease-in-out; */
+}
+
+.test>img:hover {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    /* transform: scale(1.1); */
+}
+
+/* ID */
+
+#menuicon {
+    width: 2rem;
+    height: 2rem;
+}
+
+#accueilsmall {
+    background-image: url(ressources/1.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#equipetitle {
+    margin-top: 8rem;
+}
+
+
+
+#wrapper {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    width: 800px;
+    height: 800px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+#fix {
+    width: 50rem;
+    height: 800px;
+    background-color: rgba(29, 29, 29, 0.6);
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+#positionwrapper {
+    margin-top: 30rem;
+}
+
+/* contact */
+
+* {
+    box-sizing: border-box;
+}
+
+.ecrire1 {
+    color: white;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+    width: fit-content;
+}
+
+#form {
+    position: relative;
+    top: 0, 5px;
+    left: 0.5px;
+    background-color: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(5px);
+}
+
+h1 {
+    text-align: center;
+}
+
+.link {
+    text-align: center;
+    border-bottom: 4px solid yellow;
+    width: 400px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+}
+
+.content {
+    padding: 1em;
+    margin: 1.5em 25%;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    font-family: system-ui;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.33);
+}
+
+.content a {
+    text-decoration: none;
+    transition: color 0.25s ease-out;
+    color: #5a9cc7;
+}
+
+.content a:hover {
+    color: #478dc7;
+}
+
+.content ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 1em;
+}
+
+.content ul li::before {
+    content: "– ";
+}
+
+.columns {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.column {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0.5em;
+    width: 100%;
+}
+
+/* dropdown menu */
+
+.dropbtn {
+    background-color: rgb(209, 169, 39);
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgb(209, 169, 39);
+}
+
+/* ID */
+
+#navf>li {
+    display: inline;
+    margin: 1rem;
+    padding-top: 1rem;
+}
+
+#menuicon {
+    width: 2rem;
+    height: 2rem;
+}
+
+/*Footer*/
+
+.footer_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    padding: 2vh;
+}
+
+#leg {
+    margin-top: -0.5%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 0;
+}
+
+.txtalign {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    backdrop-filter: blur(5px);
+}
+
