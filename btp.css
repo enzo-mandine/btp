@@ -187,7 +187,6 @@ footer {
 #test {
     display: flex;
     flex-direction: row;
-    background-color: green;
 }
 
 #test>img {
@@ -206,8 +205,21 @@ footer {
 }
 
 #wrapper {
+    display: block;
     position: relative;
     overflow: hidden;
     width: 800px;
     height: 800px;
+}
+
+#none {
+    display: hidden;
+}
+
+#fix {
+    width: 50rem;
+}
+
+#positionwrapper {
+    margin-top: 30rem;
 }
