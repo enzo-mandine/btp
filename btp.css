@@ -150,57 +150,85 @@ footer {
 	float:right;
 	margin:5rem;
 }
-/*Presentation*/
+/* PRESENTATION */
 
-.bodyarticle2 {
-	padding-top: 2rem;
-    font-size: 13pt;
-    text-justify: distribute;
-   
+#presentation{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background-color:transparent;
+	
+	
 }
 
-.small2 {
-    width: 40%;
-    height: 120;
-    background-image: url(ressources/ouvrier.jpg);
-    background-size: cover;
-    background-position: center;
+.link
+{
+	border-bottom:2px solid lightgreen;
+	width:630px;
+	text-align:center;
+	margin-top:20px;
+	margin-bottom:10px;
+	font-size:30px;
 }
 
-.banner2 {
-    height: 30rem;
-    width: 100%;
+#block{
+	padding: 3vw 0;
 }
 
-.row2 {
-    display: flex;
-    flex-direction: row;
+.block_1{
+
+	text-align: center;
+	padding: 3vw;
+	margin-bottom:1rem;
+	
 }
 
------
-.bodyarticle3 {
-	padding-top: 2rem;
-    font-size: 13pt;
-    text-justify: distribute;
-   
+
+/*test*/
+
+.photos{
+	width:500px;
+	height:auto;
+	float:left;
 }
 
-.small3 {
-    width: 40%;
-    height: 140;
-    background-image: url(ressources/equipe.jpg);
-    background-size: cover;
-    background-position: center;
+.flowerLink
+{
+	margin:auto;
+	margin-top:30px;
+	margin-bottom:15px;
 }
 
-.banner3 {
-    height: 30rem;
-    width: 100%;
+.presentationDescription
+{
+	display:flex;
+	flex-direction:column;
+	text-align:center;
 }
 
-.row3 {
-    display: flex;
-    flex-direction: row;
+.presentationBox
+{
+	display:flex;
+	flex-direction:row;
+	margin:15px;
+}
+
+.flowerBox a
+{
+	text-decoration:none;
+	color:blue;
+}
+
+#presentationImage
+{
+	width:400px;
+	height:auto;
+	margin-top:40px;
+	outline: 4px dotted #C59C4F;
+}
+
+.footer_1{
+	text-align:center;
 }
 
 /* contact */
@@ -233,14 +261,6 @@ text-align:center;}
 	text-align:center;
 }
 
-
-.Ben{
-	display:row;
-	text-align:center;
-	color:white;
-	font-style:gras;
-	margin:4rem;
-}
 
 .content {
     padding: 1em;
@@ -330,3 +350,14 @@ text-align:center;}
       width: 2rem;
       height: 2rem;
   } 
+  
+  
+  /*Footer*/
+ .footer_1{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 50vw;
+	padding: 2vh;
+}
