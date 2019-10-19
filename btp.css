@@ -352,6 +352,7 @@ h1 {
 }
 
 .link {
+    color: black;
     text-align: center;
     border-bottom: 4px solid yellow;
     width: 400px;
